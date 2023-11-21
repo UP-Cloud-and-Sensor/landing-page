@@ -1,6 +1,7 @@
 # Urban Pergola main landing page
 
 This project is simple HTML page. We use parcel for assembling.
+Check out the [deployed demo](https://up-cloud-and-sensor.github.io/landing-page/).
 
 ### Check the NodeJS verson
 
