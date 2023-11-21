@@ -20,13 +20,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
       - name: Build project
-        env: 
+        env:
           publicPath: ${{ format('/{0}/', github.event.repository.name) }}
         run: npm run build
 
