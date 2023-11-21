@@ -1,0 +1,30 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/UP-Cloud-and-Sensor/landing-page.git\".git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UP-Cloud-and-Sensor/landing-page.git\"/issues"
+  },
+  "homepage": "https://github.com/UP-Cloud-and-Sensor/landing-page.git\"#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "parcel": "^2.10.3",
+    "posthtml-include": "^1.7.4",
+    "prettier": "3.1.0"
+  }
+}
